@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Set up Node.js
-      uses: actions/setup-node@v2
+      uses: node/setup-node@0.x
       with:
         node-version: 16
     
